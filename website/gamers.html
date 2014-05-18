@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Code Foo 2014</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Code Foo 2014</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="gamers.html">Gamers in SF</a></li>
+              <li><a href="https://github.com/cfperea/code-foo-2014/tree/master/crossword" target="_blank">Crossword</a></li>
+              <li><a href="fooman.html">Fooman</a></li>
+            </ul>
+            
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+      <div class="page-header">
+        <h1>Number of Gamers in the San Francisco Bay Area</h1>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">Question</div>
+        <div class="panel-body">
+          <p>How many gamers are in the San Francisco Bay Area? Describe each step in your thought process.</p>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">Short Answer</div>
+        <div class="panel-body">
+          <p>Assuming "San Francisco Bay Area" is the same one as the one mentioned in Wikipedia (<a href="http://en.wikipedia.org/wiki/San_Francisco_Bay_area">http://en.wikipedia.org/wiki/San_Francisco_Bay_area</a>), there are roughly <b>2,55 million</b> gamers in the region. </p>
+        </div>
+      </div>
+
+       <div class="panel panel-default">
+        <div class="panel-heading">Long Answer</div>
+        <div class="panel-body">
+          <p>Ok, to answer this question we'll have to assume a few things. First we'll assume that a "gamer" is anyone who plays video games regularly. Secondly, we'll assume that by "San Francisco Bay Area" the IGN authors meant the "populated region that surrounds the San Francisco and San Pablo estuaries in Northern California, United States." - wikipedia (<a href="http://en.wikipedia.org/wiki/San_Francisco_Bay_area">http://en.wikipedia.org/wiki/San_Francisco_Bay_area</a>).</p>
+
+      <p>Now that we have made the previous assumptions, we'll proceed to break the problem into smaller questions (divide and conquer anyone?). The first sub-question we'll have to answer is "how many people live in the San Francisco Bay Area?."</p>
+
+      <p>According to the article in Wikipedia, the latest census (2013) shows that the population is at 7.44 million people.</p>
+
+      <p>Now that we have a rough estimate of San Francisco Bay Area's population, we'll have to break it down even farther. First we'll start by answering the question "what's the gender distribution in SF Bay Area?"</p>
+
+      <p>In the Wikipedia article we found the following information:<p>
+
+      <p>- Gender distribution:</p>
+      
+      <ul>
+        <li>49.6% male and 50.4% female</li>
+      </ul>
+
+      <p>The next question to answer is: "How many persons per household in average live in SF Bay Area?" Once again, we can use Wikipedia for this.</p>
+
+      <p>- Persons per household:</p>
+      
+      <p>-  There were 2,499,702 housing units with an average family size of 3.3.</p>
+
+      <p>One last demographic we'll obtain is the age distribution. For this, we can use the "Bay Area Census Website" (<a href="http://www.bayareacensus.ca.gov/bayarea.htm">http://www.bayareacensus.ca.gov/bayarea.htm</a>). According to the website, the age distribution as of 2010 is as follows:</p>
+
+      <ul>
+        <li>Under 5 years:  6.3%</li>
+        <li>5 to 17 years:  16.0%</li>  
+        <li>18 to 64 years  65.5%</li> 
+        <li>65 years and over 12.3%</li>
+        <li>Median age 36.6</li>
+      </ul>
+
+      <p>Now that we have established some baseline demographics of the area, let's focus on a recent (2013) report published by the "Entertainment Software Association" titled "The Essential Facts About the Computer and Video Game Industry" (<a href="http://www.theesa.com/facts/pdfs/esa_ef_2013.pdf">http://www.theesa.com/facts/pdfs/esa_ef_2013.pdf</a>).</p>
+
+      <p>The most important facts found in the document are outlined below:</p>
+
+      <ul>
+        <li>58% of americans play video games</li>
+        <li>Average of 2 video game players in each video game playing household</li>
+        <li>The average US household owns at least one dedicated video game console, pc, or smartphone</li>
+        <li>51% of US households own a dedicated game console, and those that do own an average of 2</li>
+        <li>The average player age is 30 years old. The distribution of ages is: 32% under 18, 32% 18-35, 36% 36+</li>
+        <li>55% of players are male, and 45% female</li>
+      </ul>
+      
+      <p>Ok, now we have a lot of useful information that can help us come up with an estimate for our initial question of "How many gamers are in the San Francisco Bay Area?"</p>
+
+      <p>We know that there are 7.44 million people split into 3.69 million males and 3.75 million females. Given that 58% of the population of the US plays video games, we can assume this statistic holds true in the SF Bay Areas as well. Using the 58% figure, we could estimate that there are around 4.3 million individuals who play video games in the San Francisco Bay Area.</p>
+
+      <p>However, this stastistic seems too high for me as I consider "gamers" those who play video games regularly. Therefore, we should come up with a better estimate.</p>
+
+      <p>Let's make another assumption. Let's say that a good indicator whether someone is a gamer or not is whether they own one or more video game consoles. I know that PC gamers are the "master race" of gamers, but most (if not all) hardcore PC gamers also own video game consoles due to the exclusives (The Last of Us, Uncharted, Halo, etc.).</p>
+
+      <p>Now let's use the statistic that tells us that 51% of US households own a dedicated game console. We know that there are 2,499,702 housing units in the SF Bay Area with an average family size of 3.3. If we assume that the 51% nationwide percentage applies to the region, we can estimate that 1,274,848 households own video game consoles. Let's multiply this result by the average family size and we get 4,206,998 people. Pretty close to our first estimate don't you think?. However, this estimate is too high due to the fact that not all three members of each household play video games. Most households are composed of two adults and at least one child. Given the age distribution, we can infer that most of these adults are between the ages of 18 to 64 and that the younger members of the families are between the ages of 5 to 17.</p>
+
+      <p>Given the figure that 58% of americans play video games, let's assume that in average 2 members out of the console owning households play video games regularly (the dad and the son/daughter maybe?). Now let's adjust our previous estimate to reflect this thought. We said previously that 1,274,848 households in the SF Bay Area own video game consoles, let's multiply this by 2 (the average playing members per household) and we get 2,549,696 gamers.</p>
+
+      <p>Now, 2,549,696 people is around 34% of the total population of the area.</p>
+
+      <p>Out of these ~2.55 million people, we can estimate that 1.4 million are males and 1.15 million are females (using the statistic that around 55% of players are male and 45% are female).</p>
+
+      <p>References:</p>
+
+      <ul>
+        <li>[1] Wikipedia. "San Francisco Bay Area." <a href="http://en.wikipedia.org/wiki/San_Francisco_Bay_area">http://en.wikipedia.org/wiki/San_Francisco_Bay_area</a></li>
+        <li>[2] Entertainment Software Association. "The Essential Facts About the Computer and Video Game Industry." <a href="http://www.theesa.com/facts/pdfs/esa_ef_2013.pdf">http://www.theesa.com/facts/pdfs/esa_ef_2013.pdf</a></li>
+      </ul>
+
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
