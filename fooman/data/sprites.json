@@ -1,0 +1,6 @@
+{
+	"player":{"sx":0,"sy":0,"cols":12,"tilew":32,"tileh":32,"frames":12},
+	"red_enemy":{"sx":0,"sy":32,"cols":4,"tilew":32,"tileh":32,"frames":4},
+	"tower":{"sx":416,"sy":0,"cols":1,"tilew":32,"tileh":32,"frames":1},
+	"dot":{"sx":384, "sy":0, "cols":1, "tilew":32, "tileh":32 }
+}

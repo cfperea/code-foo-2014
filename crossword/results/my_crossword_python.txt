@@ -1,0 +1,32 @@
+===== My Crossword Puzzle =====
+
+computerscience          
+o  l                     
+d javascript             
+e  y     n  l            
+f  s   w t  a i          
+o  t  gamedesign         
+o  a   t r  t n          
+2  t   c n  o r          
+0 wiiu h s  f o          
+1  o   d h  u c          
+4  n   o i  s k      d   
+   4   g php  software   
+       s  t          s   
+          m        python
+          l          i  o
+          5     xboxone d
+                     y  e
+             b          j
+            gameofthrones
+             t           
+             t           
+             l           
+          gamedevelopment
+             f           
+             i           
+             e           
+             l           
+             d           
+             4           
+

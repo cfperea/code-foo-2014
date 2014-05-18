@@ -1,0 +1,63 @@
+Question: How many gamers are in the San Francisco Bay Area? Describe each step in your thought process.
+
+Short Answer: Assuming "San Francisco Bay Area" is the same one as the one mentioned in Wikipedia (http://en.wikipedia.org/wiki/San_Francisco_Bay_area), there are roughly 2,55 million gamers in the region. 
+
+Long Answer:
+
+Ok, to answer this question we'll have to assume a few things. First we'll assume that a "gamer" is anyone who plays video games regularly. Secondly, we'll assume that by "San Francisco Bay Area" the IGN authors meant the "populated region that surrounds the San Francisco and San Pablo estuaries in Northern California, United States." - wikipedia (http://en.wikipedia.org/wiki/San_Francisco_Bay_area).
+
+Now that we have made the previous assumptions, we'll proceed to break the problem into smaller questions (divide and conquer anyone?). The first sub-question we'll have to answer is "how many people live in the San Francisco Bay Area?."
+
+According to the article in Wikipedia, the latest census (2013) shows that the population is at 7.44 million people. 
+
+Now that we have a rough estimate of San Francisco Bay Area's population, we'll have to break it down even farther. First we'll start by answering the question "what's the gender distribution in SF Bay Area?"
+
+In the Wikipedia article we found the following information:
+
+- Gender distribution:
+	- 49.6% male and 50.4% female
+
+The next question to answer is: "How many persons per household in average live in SF Bay Area?" Once again, we can use Wikipedia for this.
+
+- Persons per household:
+	-  There were 2,499,702 housing units with an average family size of 3.3.
+
+One last demographic we'll obtain is the age distribution. For this, we can use the "Bay Area Census Website" (http://www.bayareacensus.ca.gov/bayarea.htm). According to the website, the age distribution as of 2010 is as follows:
+
+	- Under 5 years: 	6.3%	 	 	 
+	- 5 to 17 years:	16.0%	 	 	 
+	- 18 to 64 years	65.5%	 	 	 
+	- 65 years and over	12.3%	 	 	 
+	- Median age 36.6
+
+Now that we have established some baseline demographics of the area, let's focus on a recent (2013) report published by the "Entertainment Software Association" titled "The Essential Facts About the Computer and Video Game Industry" (http://www.theesa.com/facts/pdfs/esa_ef_2013.pdf).
+
+The most important facts found in the document are outlined below:
+
+	- 58% of americans play video games
+	- Average of 2 video game players in each video game playing household
+	- The average US household owns at least one dedicated video game console, pc, or smartphone
+	- 51% of US households own a dedicated game console, and those that do own an average of 2
+	- The average player age is 30 years old. The distribution of ages is: 32% under 18, 32% 18-35, 36% 36+
+	- 55% of players are male, and 45% female
+
+Ok, now we have a lot of useful information that can help us come up with an estimate for our initial question of "How many gamers are in the San Francisco Bay Area?"
+
+We know that there are 7.44 million people split into 3.69 million males and 3.75 million females. Given that 58% of the population of the US plays video games, we can assume this statistic holds true in the SF Bay Areas as well. Using the 58% figure, we could estimate that there are around 4.3 million individuals who play video games in the San Francisco Bay Area.
+
+However, this stastistic seems too high for me as I consider "gamers" those who play video games regularly. Therefore, we should come up with a better estimate.
+
+Let's make another assumption. Let's say that a good indicator whether someone is a gamer or not is whether they own one or more video game consoles. I know that PC gamers are the "master race" of gamers, but most (if not all) hardcore PC gamers also own video game consoles due to the exclusives (The Last of Us, Uncharted, Halo, etc.).
+
+Now let's use the statistic that tells us that 51% of US households own a dedicated game console. We know that there are 2,499,702 housing units in the SF Bay Area with an average family size of 3.3. If we assume that the 51% nationwide percentage applies to the region, we can estimate that 1,274,848 households own video game consoles. Let's multiply this result by the average family size and we get 4,206,998 people. Pretty close to our first estimate don't you think?. However, this estimate is too high due to the fact that not all three members of each household play video games. Most households are composed of two adults and at least one child. Given the age distribution, we can infer that most of these adults are between the ages of 18 to 64 and that the younger members of the families are between the ages of 5 to 17.
+
+Given the figure that 58% of americans play video games, let's assume that in average 2 members out of the console owning households play video games regularly (the dad and the son/daughter maybe?). Now let's adjust our previous estimate to reflect this thought. We said previously that 1,274,848 households in the SF Bay Area own video game consoles, let's multiply this by 2 (the average playing members per household) and we get 2,549,696 gamers.
+
+Now, 2,549,696 people is around 34% of the total population of the area.
+
+Out of these ~2.55 million people, we can estimate that 1.4 million are males and 1.15 million are females (using the statistic that around 55% of players are male and 45% are female).
+
+References:
+
+[1] Wikipedia. "San Francisco Bay Area." http://en.wikipedia.org/wiki/San_Francisco_Bay_area
+[2] Entertainment Software Association. "The Essential Facts About the Computer and Video Game Industry." http://www.theesa.com/facts/pdfs/esa_ef_2013.pdf
