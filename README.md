@@ -5,6 +5,8 @@ My name is Carlos Perea, a senior-year Computer Science undegraduate student. Th
 
 You can visit the submission's webpage at: http://cperea.com/codefoo
 
+Video: https://www.youtube.com/watch?v=QeI737CSJss
+
 I hope you guys at IGN like my work.
 
 You can find out more about me at: http://cperea.com
