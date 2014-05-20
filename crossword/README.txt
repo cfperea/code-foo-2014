@@ -1,14 +1,17 @@
 Author: Carlos Perea
 E-mail: cfperea@gmail.com
 Date: April 17th, 2014
-Description: Crossword puzzle generator for IGN's "Code Foo 2014" internship
+Description: Crossword puzzle generator for IGN's "Code Foo 2014" internship. To generate the crossword puzzles please visit http://cperea.com/codefoo/crossword.html 
 
 Contents:
+    1) PHP and JavaScript implementation (php folder)
     1) Ruby implementation (generator.rb)
     2) Python implementation (generator.py)
     3) Results folder (the outputs are written in files within this folder)
     4) IGN dictionary (crossword.txt)
     5) Custom dictionary (mylist.txt)
+
+The following steps only apply if you want to execute the Ruby and/or Python implementations.
 
 Before you start:
     1) You need to have Ruby 1.9.3+ installed. You can get it here: https://www.ruby-lang.org/en/downloads/

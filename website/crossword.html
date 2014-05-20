@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Code Foo 2014</title>
+
+    <!-- Style for the crossword puzzle grid -->
+    <style>
+      table td 
+      {
+        table-layout:fixed;
+        width:16px;
+        overflow:hidden;
+        word-wrap:break-word;
+        border: 2px solid black;
+      }
+
+      textarea{
+        display: block;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+
+    <!-- Bootstrap -->
+    <link href="css/finalbootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="crossword/crossword.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Code Foo 2014</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="gamers.html">Gamers in SF</a></li>
+              <li class="active"><a href="crossword.html">Crossword</a></li>
+              <li><a href="http://cperea.com/fooman" target="_blank">Fooman</a></li>
+              <li><a href="http://cperea.com/about" target="_blank">About Me</a></li>
+            </ul>
+            
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+      <div class="page-header">
+        <h1>Crossword Puzzle Generator</h1>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">Description</div>
+        <div class="panel-body">
+        <p>Crossword puzzle generator made in PHP and JavaScript.</p>
+        <p>Ruby and Python implementations are also available here: <a href="https://github.com/cfperea/code-foo-2014/tree/master/crossword">https://github.com/cfperea/code-foo-2014/tree/master/crossword</a></p>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">IGN Word List</div>
+        <div class="panel-body">
+          
+          <form style="width: 250px; margin: 0 auto;" id="ign-crossword" name="ign-crossword" method="POST" action="crossword/generator.php">
+            <input name="ign-title" type="text" value="IGN" hidden="true"/>
+<textarea name="ign-words" rows="20" cols="20" readonly >
+Health
+Score
+Zerg
+Assassin
+Reload
+Inky
+Pylon
+Stryder
+Level
+Bazooka
+Blunderbuss
+Killtacular
+Yellowbrate
+Heist
+Duck
+Huckleberry
+Halo
+LosSantos
+Flappy
+Mushroom
+Atrus
+Horde
+Roivas
+Ganondorf
+KingGraham
+Protoman
+Hydralisk
+Shepard
+NukaCola
+Plasmid
+Wouldyoukindly
+Ellie
+Metroid
+XinZhao
+Zork
+</textarea>
+            <input type="submit" class="btn btn-primary" value="Generate!" />
+          </form>
+
+          <!-- Crossword grid is displayed in this div -->
+          <div id="ign-grid" style="margin: 10px auto;">
+          </div>
+
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">My Word List</div>
+        <div class="panel-body">
+          
+          <form style="width: 250px; margin: 0 auto;" id="own-crossword" name="ign-crossword" method="POST" action="crossword/generator.php">
+            <input name="own-title" type="text" value="Own" hidden="true"/>
+<textarea name="own-words" rows="20" cols="20" readonly >
+gamedevelopment
+gamedesign
+playstation4
+xboxone
+wiiu
+software
+computerscience
+internship
+ignrocks
+codefoo2014
+battlefield4
+lastofus
+destiny
+watchdogs
+gameofthrones
+nodejs
+javascript
+php
+python
+html5
+</textarea>
+            <input type="submit" class="btn btn-primary" value="Generate!" />
+          </form>
+
+          <!-- Crossword grid is displayed in this div -->
+          <div id="own-grid" style="margin: 10px auto;">
+          </div>
+
+        </div>
+      </div>
+     
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
